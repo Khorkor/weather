@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  background-color: #bfbfbf;
+  margin-top: 20px;
+}
+
+.weather {
+  background-color: #fff;
+  width: 400px;
+  padding: 25px 0px 1px 0px;
+  margin: 30px auto;
+}
+
+.weather .user-location {
+  font-size: 26px;
+}
+
+.weather .user-temperature {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.weather .weather-icon {
+  margin: 10px;
+}
+
+.switch .btn {
+  width: 100%;
+  border-bottom: 1px solid;
+  border-bottom-color: #dedede;
+  border-radius: 0px;
+  background-color: #0099ff;
+}
+
+
+@media screen and (max-height: 470px) {
+  footer { position: relative; }
+}
+
+@media screen and (max-width: 400px) {
+  .weather { width: 100%; }
+}
